@@ -25,7 +25,8 @@ with col1:
     
 with col2:
     # Puedes reemplazar esto con tu foto o un logo
-    st.image("logo.jpg", width=450, use_column_width="auto") 
+    #st.image("logo.jpg", width=450, use_column_width="auto") 
+    st.image("logo.jpg", width=450, use_container_width=True)
 
 # Línea divisoria
 st.markdown("---")
